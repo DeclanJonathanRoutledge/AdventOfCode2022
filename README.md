@@ -7,5 +7,5 @@ without the overhead of setting up a "project" or waiting for SBT's slow startup
 My attempt at following along AdventOfCode daily challenge:
 
 - Day 1 [:heavy_check_mark:]
-- Day 2 []
+- Day 2 [:heavy_check_mark:]
 - Day 3 []
