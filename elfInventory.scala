@@ -34,9 +34,9 @@ object elfInventory{
   }
   def elfSortedSeq(elfSeq: Seq[Elf]): Seq[Elf] = elfSeq.sortBy(_.elfLoad)
   @tailrec
-  def elfCalorieAdder(elfSeq: Seq[Elf], fullweight:Int): Int = {
-      if (elfSeq.nonEmpty) elfCalorieAdder(elfSeq.drop(1), elfSeq.head.elfLoad + fullweight)
-      else fullweight
+  def elfCalorieAdder(elfSeq: Seq[Elf], fullWeight:Int): Int = {
+      if (elfSeq.nonEmpty) elfCalorieAdder(elfSeq.drop(1), elfSeq.head.elfLoad + fullWeight)
+      else fullWeight
   }
 
 }
