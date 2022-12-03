@@ -40,7 +40,7 @@ object elfInventory{
   }
 
 }
-val rawData = Source.fromFile("/Users/routld02/Documents/sideProjects/adventOfCode/elfInventry.txt")
+val rawData = Source.fromFile("/Users/routld02/Documents/sideProjects/adventOfCode/resources/elfInventry.txt")
 val elfSeq = elfProccesor(rawData.getLines())
 //---answer to part 1
 println("max weight carried by an individual elf: "+elfCalorieAdder(elfSortedSeq(elfSeq).takeRight(1),0))
