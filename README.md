@@ -8,4 +8,5 @@ My attempt at following along AdventOfCode daily challenge:
 
 - Day 1 [:heavy_check_mark:]
 - Day 2 [:heavy_check_mark:]
-- Day 3 []
+- Day 3 [:heavy_check_mark:]
+- Day 4 [__] 
