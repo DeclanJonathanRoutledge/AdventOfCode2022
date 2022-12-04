@@ -50,11 +50,11 @@ object OrderedRucksacks{
 }
 
 //---answer to part 1
-val rawData = Source.fromFile("/Users/routld02/Documents/sideProjects/adventOfCode/rucksacks.txt")
+val rawData = Source.fromFile("/Users/routld02/Documents/sideProjects/adventOfCode/resources/rucksacks.txt")
 println("Part One -total priorities:  "+totalScoreAdder(priorityChecker(bagSorter(rawData.getLines()))))
 rawData.close()
 
 ////---answer to part 2
-val rawDataTwo = Source.fromFile("/Users/routld02/Documents/sideProjects/adventOfCode/rucksacks.txt")
+val rawDataTwo = Source.fromFile("/Users/routld02/Documents/sideProjects/adventOfCode/resources/rucksacks.txt")
 println("Part Two -total priorities:  " + totalScoreAdder(bigBagSorter(rawDataTwo.getLines())))
 rawDataTwo.close()

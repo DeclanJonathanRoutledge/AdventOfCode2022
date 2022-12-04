@@ -81,7 +81,7 @@ object RockPaperScissors{
   }
 
 }
-val rawData = Source.fromFile("/Users/routld02/Documents/sideProjects/adventOfCode/plays.txt")
+val rawData = Source.fromFile("/Users/routld02/Documents/sideProjects/adventOfCode/resources/plays.txt")
 val rounds = scoreProccesor(rawData.getLines())
 
 //---answer to part 1
